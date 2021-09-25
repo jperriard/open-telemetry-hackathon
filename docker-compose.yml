@@ -1,0 +1,23 @@
+version: "3"
+services:
+  nginx:
+    container_name: nginx
+    build:
+      context: webapp
+      dockerfile: ./Dockerfile
+    ports:
+      - "8080:80"
+  spring-boot:
+    container_name: spring-boot
+    build:
+      context: spring-boot
+      dockerfile: ./Dockerfile
+    ports:
+      - "8181:8181"
+  nodejs:
+    container_name: nodejs
+    build:
+      context: nodejs
+      dockerfile: ./Dockerfile
+    ports:
+      - "8282:8282"

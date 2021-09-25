@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "noImplicitThis": true,
+    "strictNullChecks": false,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "outDir": "dist/",
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.json",
+    "jest.d.ts",
+    "../share/model"
+  ],
+  "exclude": [
+    "node_modules",
+    ".tmp",
+    "dist"
+  ],
+  "typeRoots": [
+    "types"
+  ],
+}
