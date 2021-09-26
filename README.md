@@ -5,4 +5,5 @@ Base project to learn and setup open-telemetry during a hackathon. It contains s
 ## Start
 
 `$ docker-compose up`
-got to [http://localhost:8080](http://localhost:8080)
+
+go to [http://localhost:8080](http://localhost:8080)
